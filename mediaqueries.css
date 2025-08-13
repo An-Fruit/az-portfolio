@@ -1,0 +1,9 @@
+/*only hamburger menu for screen sizes w/ less than 1200 px width*/
+@media screen and (max-width: 1200px) {
+    #desktop_nav{
+        display: none;
+    }
+    #hamburger_nav{
+        display: flex;
+    }
+}
