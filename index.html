@@ -10,7 +10,7 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Andre Zhang</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -21,7 +21,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Andre Zhang</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -38,7 +38,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Andre Zhang profile picture" />
+        <img src="./assets/icons/icon_education.png" alt="Andre Zhang profile picture" />
       </div>
       <div class="section__text">
         <h1 class="title">Andre Zhang</h1>
@@ -55,13 +55,13 @@
         </div>
         <div id="socials-container">
           <img
-            src="./assets/linkedin.png"
+            src="./assets/icons/icon_linkedin.png"
             alt="My LinkedIn Profile"
             class="icon"
             onclick="location.href='https://www.linkedin.com/in/andre-zhang-91bb88234/'"
           />
           <img
-            src="./assets/github.png"
+            src="./assets/icons/icon_github.png"
             alt="My Github Profile"
             class="icon"
             onclick="location.href='https://github.com/An-Fruit/'"
@@ -74,7 +74,7 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/profile-pic.png"
+            src="./assets/icons/icon_education.png"
             alt="profile picture"
             class="about-pic"
           />
@@ -83,7 +83,7 @@
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="./assets/education.png"
+                src="./assets/icons/icon_education.png"
                 alt="Education icon"
                 class="icon"
               />
@@ -93,13 +93,18 @@
           </div>
           <div class="text-container">
             <p>
-              Put some text here about me (short bio maybe?)
+              Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex 
+              sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis 
+              convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla 
+              lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc 
+              posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent 
+              per conubia nostra inceptos himenaeos.
             </p>
           </div>
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="./assets/icons/icon_arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#experience'"
@@ -111,32 +116,65 @@
 
         <div class="about-containers">
           <div class="details-container">
+            <!-- This is a container for the languages I know-->
+             <!-- TODO: use the actual icons for the languages -->
             <h2 class="experience-sub-title">Languages</h2>
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  src="./assets/icons/icon_java.png"
+                  alt="java icon"
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
+                  <h3>Java</h3>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  src="./assets/icons/icon_python.png"
+                  alt="python icon"
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
+                  <h3>Python</h3>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  src="./assets/icons/icon_c.png"
+                  alt="C programming language icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/icon_cpp.png"
+                  alt="C++ programming language icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/icon_html.png"
+                  alt="HTML + CSS icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML + CSS</h3>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/icons/icon_js.png"
+                  alt="JavaScript icon"
                   class="icon"
                 />
                 <div>
@@ -145,8 +183,8 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  src="./assets/icons/icon_ts.png"
+                  alt="TypeScript icon"
                   class="icon"
                 />
                 <div>
@@ -156,50 +194,58 @@
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <!-- This contains the various frameworks/tools that I know or have used
+             TODO: use actual icons -->
+            <h2 class="experience-sub-title">Tools/Frameworks</h2>
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  src="./assets/icons/icon_make.png"
+                  alt="Make build tool icon"
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+                  <h3>Make</h3>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  src="./assets/icons/icon_cmake.png"
+                  alt="Cmake build tool icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <h3>CMake</h3>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  src="./assets/icons/icon_git.png"
+                  alt="git version control tool icon"
                   class="icon"
                 />
                 <div>
                   <h3>Git</h3>
-                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/icon_opengl.png"
+                  alt="OpenGL framework icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OpenGL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/icon_msgraphs.png"
+                  alt="MS Graphs API icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Graphs</h3>
                 </div>
               </article>
             </div>
@@ -207,21 +253,20 @@
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="./assets/icons/icon_arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
       />
     </section>
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/icons/icon_experience.png"
                 alt="Project 1"
                 class="project-img"
               />
@@ -245,7 +290,7 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/icons/icon_experience.png"
                 alt="Project 2"
                 class="project-img"
               />
@@ -269,7 +314,7 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/icons/icon_experience.png"
                 alt="Project 3"
                 class="project-img"
               />
@@ -293,19 +338,18 @@
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="./assets/icons/icon_arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#contact'"
       />
     </section>
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
-            src="./assets/email.png"
+            src="./assets/icons/icon_email.png"
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
@@ -313,11 +357,11 @@
         </div>
         <div class="contact-info-container">
           <img
-            src="./assets/linkedin.png"
+            src="./assets/icons/icon_linkedin.png"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/andre-zhang-91bb88234/">LinkedIn</a></p>
         </div>
       </div>
     </section>

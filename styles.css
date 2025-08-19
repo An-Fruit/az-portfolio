@@ -1,6 +1,7 @@
 /* GENERAL */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
@@ -8,7 +9,8 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -27,6 +29,10 @@ a,
 }
 
 /* DESKTOP NAV */
+
+#desktop-nav {
+background-color: rgb(152,251,203);
+}
 
 nav,
 .nav-links {
@@ -47,19 +53,20 @@ nav {
 
 a {
   color: black;
-  text-decoration: none;
-  text-decoration-color: white;
+  text-decoration: underline dotted;
+  text-underline-offset: 1rem;
+  text-decoration-color: black;
 }
 
 a:hover {
   color: grey;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: grey;
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .logo:hover {
@@ -276,6 +283,7 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  max-width: 30vw
 }
 
 .about-containers,
