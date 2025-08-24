@@ -161,6 +161,23 @@ section {
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  position: relative;
+  overflow: hidden;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0.75rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(118, 138, 118, 1),
+    rgba(118, 138, 118, 0)
+  );
+  pointer-events: none; /* ensures it won’t block clicks */
 }
 
 .section-container {
@@ -204,6 +221,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  /* background-image: linear-gradient(rgba(152,251,203, 1), rgba(152, 251, 203, 0)); */
 }
 
 #socials-container {
